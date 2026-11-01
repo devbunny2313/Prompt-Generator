@@ -1,0 +1,19 @@
+[theme]
+base = "dark"
+primaryColor = "#8B5CF6"
+backgroundColor = "#0A0D14"
+secondaryBackgroundColor = "#121826"
+textColor = "#F1F5F9"
+borderColor = "#263045"
+linkColor = "#A78BFA"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+address = "127.0.0.1"
+port = 8501
